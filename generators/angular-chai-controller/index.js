@@ -44,9 +44,8 @@ module.exports = yeoman.generators.Base.extend({
     }.bind(this));
   },
 
-  writing: function () {
-    var basePath = yeoman.generators.config.get('angular-base-path'),
-        path = [this.props.moduleName, this.props.functionName],
+  writing: function (basePath) {
+    var path = [this.props.moduleName, this.props.functionName],
         context = {
           moduleName: this.props.moduleName,
           controllerName: this.props.controllerName,

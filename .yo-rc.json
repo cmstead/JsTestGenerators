@@ -1,0 +1,5 @@
+{
+  "generator-testgen": {
+    "angular-base-path": "frontend"
+  }
+}

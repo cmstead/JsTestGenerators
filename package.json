@@ -1,0 +1,20 @@
+{
+  "name": "generator-testgen",
+  "version": "1.0.0",
+  "description": "Generators for Javascript Unit Test Files",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmstead/JsTestGenerators.git"
+  },
+  "keywords": [
+    "yeaoman-generator",
+    "unit testing",
+    "code generation"
+  ],
+  "author": "Chris Stead <cmstead@gmail.com> (http://www.chrisstead.com/)",
+  "license": "MPL",
+  "homepage": "https://github.com/cmstead/JsTestGenerators",
+  "dependencies": {
+    "yeoman-generator": "^0.21.1"
+  }
+}
